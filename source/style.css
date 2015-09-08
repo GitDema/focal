@@ -14,18 +14,18 @@ body{
 
 .head-wrap{
 	width: 1200px;
-	height: 1000px;
+	height: 600px;
 	background: url(image/head-bg.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
 .content-wrap{
-	width: 900px;
 	height: 200px;
+	width: 850px;
 	margin: 0 auto;
-	padding-top: 560px;
 	text-align: center;
+	padding-top: 320px;
 	text-transform: uppercase;
 }
 
@@ -137,6 +137,7 @@ h3{
 
 .person-info{
 	background: #f1f2f0;
+	margin-bottom: 60px;
 }
 
 .person-info img {
@@ -146,11 +147,157 @@ h3{
 
 .wrapp-pers-info{
 	display: inline-block;
-	width: 745px;
+	padding: 50px 50px;
+	line-height: 30px;
 }
 
+.wrap-text-info{
+	margin-bottom: 80px;
+	width: 580px;
+}
 
+.left-items{
+	display: inline-block;
+	width: 250px;
+	position: relative;
+	margin-right: 80px;
+}
 
+.margin-bot{
+	margin-bottom: 30px;
+}
 
+.wrap-headers{
+	padding-left: 50px;
+}
 
+.right-items{
+	display: inline-block;
+	width: 250px;
+	position: relative;
+}
 
+.web-design-icon:before{
+	content: '';
+	background: url(image/web-icon.gif) no-repeat;
+	width: 41px;;
+	height: 41px;
+	position: absolute;
+	top: 5px;
+	left: -50px;
+}
+
+.marketing-icon:before{
+	content: '';
+	background: url(image/marketing-icon.gif) no-repeat;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 143px;
+	left: -50px;
+}
+
+.graph-icon:before{
+	content: '';
+	background: url(image/graph-icon.gif) no-repeat;
+	width: 31px;;
+	height: 45px;
+	position: absolute;
+	top: 5px;
+	left: -50px;
+}
+
+.seo-icon:before{
+	content: '';
+	background: url(image/seo-icon.gif) no-repeat;
+	width: 37px;
+	height: 36px;
+	position: absolute;
+	top: 143px;
+	left: -50px;
+}
+/*------ MY SKILL -----------*/
+
+.wrap-skill{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+.my-skill{
+	display: inline-block;
+	width: 500px;
+	line-height: 25px;
+	margin-right: 50px;
+}
+
+.my-skill a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #2ecc71;
+	border: 2px solid #2ecc71;
+	padding: 13px 17px;
+}
+
+.experience{
+	display: inline-block;
+	width: 400px;
+}
+
+.experience .outer {
+	background: #f1f2f0;
+	width: 400px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.experience .inner {
+	background: #2ecc71;
+	padding-right: 2px;
+	
+}
+.outer .first{
+	width: 90%;
+}
+.outer .second{
+	width: 80%;
+}
+.outer .third{
+	width: 90%;
+}
+.outer .fourth{
+	width: 70%;
+}
+
+/*----------RESUME----------*/
+
+.wrap-resume{
+	background: #f1f1f0;
+	text-align: center;
+	padding: 70px 150px;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.wrap-resume:after{
+    content: ''; 
+    position: absolute;
+    left: 575px; bottom: -35px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-top: 15px solid #f1f1f2; /* Добавляем треугольник */
+}
+
+.wrap-resume h3{margin-bottom: 30px;}
+.wrap-resume p{	margin-bottom: 60px;}
+.wrap-resume a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #2ecc71;
+	border: 2px solid #2ecc71;
+	padding: 13px 17px;
+}
